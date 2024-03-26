@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css?family=Anton'); */
+/* <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link> */
+
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.header{
+    height: 4rem;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    
+}
+.nav a{
+ text-decoration: none;
+ color: black;
+}
+.nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3rem;
+
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 5px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+
+

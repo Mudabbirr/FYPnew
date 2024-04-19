@@ -1,76 +1,69 @@
 .whatwedo{
-    height: 28.75rem;
+    width: 100%;
+    height: 120rem;
+    background-color: var(--lightblue);
+}
+.first-whatwedo{
     background-image: url('../assets/whatwedo.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
     background-size: cover;
-    color: #ffffff;
-}
-.whatwedo_h1{
-    padding-top: 7rem;
-}
-.whatwedo_btn{
-    width: 14rem;
-    height: 3.5rem;
-    background-color: transparent;
-    border: 2px solid #ffffff;
-    font-family: 'Poppins', cursive;
-    color: #ffffff;
-    margin-top: 2rem;
-    margin-left: 35rem;
-}
-.whatwedo_btn:hover{
-    background-color: #2B7FFF;
-    color:#ffffff;
-    border-style: none;
-}
-.div_para{
-background: #F2F7FF;
-padding: 1rem;
-}
-.para_text{
-    margin-bottom: 2rem;
-}
-
-.founders{
-    background: #E9EBF8;
-    padding: 1rem;
-    padding-bottom: 3rem;
-
-}
-.pictures{
+    width: 100%;
+  /* object-fit: cover;
+  align-self: center; */
+    /* background-position: 0%; */
+    color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 10rem;
-    margin-top: 4rem;
+    gap: 2rem;
+    padding: 4rem 5rem;
+   
 }
-
-.pic_inn{
-    width: 14.6875;
-    height: 14.6875;
+.first-whatwedo p{
+    text-align: center;
 }
-.position{
-    margin-top: 0rem;
-}
-#meet{
-    width: 15rem;
-    margin-top: 6rem;
-    margin-left: 33rem;
-}
-#meet:hover{
-    background-color: #ffffff;
-    color: #2B7FFF;
-    border: 1px solid #2B7FFF;
+.second-whatwedo p{
     font-weight: 500;
-    width: 20rem;
-    margin-left: 30rem;
+    text-align: left;
+    padding-bottom: 1rem;
 }
-.ourmission{
-    background: #F2F7FF;
-    padding: 1rem;
+.second-whatwedo{
+    padding: 4rem;
 }
-span{
-    font-weight: 1000;
+.third-whatwedo{
+    background-color: var(--gray);
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
-.mission_cont{
-    text-align: start;
+.Team{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.Team-member{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.four-whatwedo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+    gap: 1rem;
+}
+.four-whatwedo p{
+    font-weight: 500;
+}
+.four-whatwedo h1{
+    padding-bottom: 2rem;
 }

@@ -1,155 +1,174 @@
-/* .content{
-    width: 20rem;
-    height: 20rem;
-} */
-/* .img{
-    height: 70rem;
-    background-image: url('C:\Users\Glow computers\fyp\src\source\cover1upd.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
+.first {
+  background: white;
+  height: 60rem;
+  width: 100%;
 }
-.content1{
-    height: 30rem;
-    background: linear-gradient(0deg, rgba(126,162,209,1) 17%, rgba(208,232,242,1) 100%);
-    margin-top: 24rem;
+.banner {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  align-self: center;
 }
- */
- /* @import url('https://fonts.googleapis.com/css?family=Anton'); */
-.first{
-    background:  red;
+.first-content {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.banner{
-    height:20rem;
-    width: 100%;
-    object-fit: cover;
-    align-self: center;
+.first-content p {
+  width: 65rem;
+  /* text-align-last: center ; */
+  text-align: center;
+  font-weight: 500;
+}
+.first-content h1 {
+  margin-top: 1rem;
+  font-size: 48px;
+  letter-spacing: -1.5px;
+}
+
+.first-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+}
+.card-section {
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card1 {
+  border: 1.7px solid var(--primary);
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  width: 15rem;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.first-cards p {
+  font-weight: 700;
+}
+
+/*//////////////////*/
+.second {
+  background: var(--primary);
+  height: 47rem;
+  width: 100%;
+  padding: 2rem;
+}
+.second h1 {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Filter_Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.Filter_Card img {
+  width: 25rem;
+}
+.flags {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.flags img {
+  width: 15rem;
+}
+
+.Third {
+  background: var(--gray);
+  height: 125rem;
+  width: 100%;
+  padding: 3rem;
+}
+.Third h1 {
+  color: var(--primary);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.programs-card {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+.master-program{
     
-}
-
-h1{
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Poppins';
-    line-height: 4.2rem;
-    margin-top: 1.5rem;
-    font-weight: 700;
-    
-}
-p{
-    margin-top: 2rem;
-    font-family: 'Poppins',cursive;
-    text-align: center;
-    font-size: 18px;
-    line-height: 27px;
-    padding-left: 4rem;
-    padding-right: 4rem;
-} 
-#no1{
-    margin-top: 5rem;
-}
-.carts{
-    display: flex;
-    gap: 2rem;
-    padding: 2rem;
-    padding-bottom: 7rem;
-}
-.cart1{
-        width: 24.7rem;
-        height: 20.8125rem;
-        background: #FFFFFF;
-        justify-content: center;
-        align-items: center;
-        border-radius: 0.6rem;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-        transition: .4s;
-        cursor: pointer;
-}
-.cart1:hover{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transform: translate(0px, 8px);
-}
-.cart_icon{
-    margin-top: 01rem;
-    margin-left: 10rem;
-}
-h3{
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 1.875rem;
-    font-weight: 500;
-    font-family: 'Poppins', cursive;
-
-}
-.para{
-    font-size: 0.9375rem;
-    line-height: 1.4063rem;
-    font-family: 'Poppins', cursive;
-    padding: 1rem;
-    margin-top: 1rem;
-
-}
-.second{
-    background-color: #E9EBF8;
-}
-.second_carts{
-    display: flex;
-    gap: 8rem;
-    padding: 5rem;
-}
-.s_cart{
-    width: 31rem;
-    height: 31.75rem;
-    background-color: #ffffff;
-    border: 3px solid black;
-    border-radius: 0.6rem;
-
-}
-
-.bs{
-    margin-top: 03rem;
-    margin-left: 11rem;
-}
-#bs1{
-
-    font-weight: 1000;
-}
-.btn{
-    background-color: #2B7FFF;
-    color:#FFFFFF;
-    width: 15.625rem;
-    height: 3.9375rem;
-    margin-top: 2rem;
-    margin-left: 7.5rem;
-    border-radius: 0.4rem;
-}
-.third{
-    background-color: #F2F7FF;
-}
-.how_std{
-    padding-top: 2rem;
-}
-.contain{
+    border: solid var(--primary) 2px;
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
     display: flex;
     gap: 1rem;
-    padding: 3rem;
+    flex-direction: column;
+    width: 25rem;
+    align-items: center;
+    justify-content: center;
 }
-.contain_inner{
-    width: 41.625rem;
-    height: 35.5625rem;
-    background-size: cover;
+.bachelor-program{
+   
+    border: solid var(--primary) 2px;
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 25rem;
+    align-items: center;
+    justify-content: center;
 }
-#std{
-    text-align: start;
-    line-height: 2rem;
-    margin-top: 0.5rem;
+.Third p {
+    text-align: center;
+    font-weight: 500;
+  }
+  .Third span {
+    text-align: center;
+    font-weight: 650;
+    font-size: 22px;
+  }
+
+.AdsBanner{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 3rem; 
+ padding-bottom: 6rem;
 }
-.read{
-    background-color: #2B7FFF;
-    color: #F2F7FF;
-    width: 10rem;
-    height: 3rem;
-    margin-left: 4rem;
-    margin-top: 2rem;
-    border-radius: 0.4rem;
+.Last-section-Textpart{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Last-section-Textpart button{
+  width: 9rem;
+}
+.Last-section-Textpart p {
+  text-align: justify ;
+  line-height: 1.8rem;
+}
+.Last-section img{
+  width: 35rem;
+}
+.Last-section{
+  display: flex;
+  gap: 6rem;
+  padding-top: 5rem;;
 }

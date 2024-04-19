@@ -1,79 +1,139 @@
-import React from 'react'
-import './home.css'
-import banner from '../assets/banner.png'
-import cart1 from '../assets/cart1.png'
-import cart2 from '../assets/cart2.png'
-import cart3 from '../assets/cart3.png'
-import BS from '../assets/BS.png'
-import MS from '../assets/MS.png'
-import Students from '../assets/students.png'
-import Header from '../components/Header';
-import Footer from '../components/Footer'
-
+import React from "react";
+import "./home.css";
+import "../App.css";
+import banner from "../assets/banner.png";
+import BS from "../assets/BS.png";
+import MS from "../assets/MS.png";
+import Students from "../assets/students.png";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import degree from "../assets/degree.png";
+import university from "../assets/university.png";
+import courses from "../assets/courses.png";
+import Budget from "../assets/Set your Budget.png";
+import ILETScard from "../assets/Without Ilets.png";
+import CGPA from "../assets/CGPA Card.png";
+import Canada from "../assets/Canada.png";
+import Australia from "../assets/Australia.png";
+import Germany from "../assets/Germany.png";
+import Italy from "../assets/Italy.png";
+import Adsbanner from "../assets/ADS BANNER.png";
 
 export default function Home() {
   return (
-    <div>
-        <Header/>
-      {/* <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link> */}
-
+    <div className="landing-page">
+      <Header />
       <div className="first">
-        <img className='banner' src={banner} alt="" />
-        <div className="text">
-            <h1>Choose Your Best Abroad Destination.</h1>
-            <p>Lorem ipnt enimSequi, ratione! amet nostrum perspiciatis ab doloremque laboriosam fugit sed id explicabo dignissimos dicta consequuntur voluptate, accusantium dolore. Odio at saepe nostrum, fuga veritatis atque aspernatur iste assumenda?
-          Omnis aliquid obcaecati nam vero reprehenderit perferendis eveniet sint ad? Doloremque eos aut maxime fugiat eaque aspernatur harum optio accusantium in reprehenderit sit, atque dolor tempora velit perspiciatis modi voluptates.</p>
-            <h1 id='no1'>Why EduGate Best for Choosing Abroad University.</h1>
-            <div className='carts'>
-            <div className="cart1">
-                <img className='cart_icon' src={cart1} alt="" />
-                <h3>Set Your Budget</h3>    
-                <p className='para'>We offer an exceptional Budget search filter designed to assist you in selecting the perfect university based on both your financial considerations and individual preferences, ensuring an optimal match for your budget and suitability.</p>
-            </div>
-            <div className="cart1">
-                <img className='cart_icon' src={cart2} alt="" />
-                <h3>Without IELTS</h3>
-                <p className='para'>We offer an exclusive Without IELTS filter, streamlining the process of selecting the ideal university based solely on your academic achievements. This filter ensures that you can choose the best university without the need for IELTS.</p>
-                </div>
-            <div className="cart1">
-                <img className='cart_icon' src={cart3} alt="" />
-                <h3>Set Your CGPA</h3>
-                <p className='para'>We offer a handy Set GPA filter to make it easy for you to pick the right university based on your academic performance. This filter ensures that you can select the best university, focusing solely on your academic results.</p>
-                </div>
-            </div>
+        <img className="banner" src={banner} alt="" />
+        <div className="first-content">
+          <h1>Choose Your Best Abroad Destination.</h1>
+          <p>
+            If you aspire to study abroad, we have the means to assist you in
+            devising the best international educational plan. We offer a diverse
+            selection of universities tailored to your budget, academic history,
+            and scholarship opportunities. Whether you dream of pursuing your
+            education overseas, Edugate is your gateway to realizing that dream.
+            From comprehensive course information to valuable career guidance,
+            our commitment is to support you in shaping your international
+            future.
+          </p>
+          <button className="primary-button">Explore Programs</button>
         </div>
-        <div className='second'>
-        <h1 className='how_std'>What Courses Are You Looking For ?</h1>
-        <div className="second_carts">
-            <div className="s_cart">
-                <img className='bs' src={BS} alt="" />
-                <h3 id='bs1'>Bachelor's Programmes</h3>
-                <p className='para'>We offer an exceptional Budget search filter designed to assist you in selecting the perfect university based on both your financial considerations and individual preferences, ensuring an optimal match for your budget and suitability.</p>
-                <button className='btn'>Search Bachelor's</button>
+        <div className="card-section">
+          <div className="first-cards">
+            <div className="card1">
+              <img src={degree} alt="" />
+              <h1>50+</h1>
+              <p>Universities</p>
             </div>
-            <div className="s_cart">
-                <img className='bs' src={MS} alt="" />
-                <h3 id='bs1'>Master's Programmes</h3>
-                <p className='para'>We offer an exceptional Budget search filter designed to assist you in selecting the perfect university based on both your financial considerations and individual preferences, ensuring an optimal match for your budget and suitability.</p>
-                <button className='btn'>Search Master's</button>
+            <div className="card1">
+              <img src={university} alt="" />
+              <h1>20+</h1>
+              <p>Degree Programs</p>
             </div>
+            <div className="card1">
+              <img src={courses} alt="" />
+              <h1>100+</h1>
+              <p>Courses</p>
+            </div>
+          </div>
         </div>
-             <div className="third">
-                <h1 className='how_std'>How Students Think About EduGate</h1>
-                <div className="contain">
-                    <div className="contain_inner">
-                        <p id='std'>‘I started by searching on Google for courses that suites my interest and I was redirected to different websites, one of which is Edugate.com which turned out to be the most useful. I chose Vytautas Magnus University because it was the most affordable for me and the course completely suited my needs. Studyportals helped by giving me a wide range of detailed options of schools and courses to choose from. I did not have an idea of either the course or the university I wanted to attend. At the initial stage, before the application, I received all the necessary information about the course and school, through a direct website link to the course.</p>
-                        <button className="read">Read More</button>
-                    </div>
-                    <div className="contain_inner">
-                        <img src={Students} alt="" />
-                    </div>
-                </div>
-            </div>
-         </div>
       </div>
+
+      <div className="second">
+        <h1>Why EduGate Best for Choosing Abroad University.</h1>
+
+        <div className="Filter_Card">
+          <img src={Budget} alt="" />
+          <img src={ILETScard} alt="" />
+          <img src={CGPA} alt="" />
+        </div>
+
+        <div className="flags">
+          <img src={Canada} alt="" />
+          <img src={Italy} alt="" />
+          <img src={Australia} alt="" />
+          <img src={Germany} alt="" />
+        </div>
+      </div>
+
+      <div className="Third">
+        <h1>What Courses are you Looking For?</h1>
+
+        <div className="programs-card">
+          <div className="bachelor-program">
+            <img src={BS} alt="" />
+            <span>Bachelor Programs</span>
+            <p>
+              We offer an exceptional Budget search filter designed to assist
+              you in selecting the perfect university based on both your
+              financial considerations and individual preferences, ensuring an
+              optimal match for your budget and suitability.
+            </p>
+            <button className="secondary-button">Search Bachelors</button>
+          </div>
+
+          <div className="master-program">
+            <img src={MS} alt="" />
+            <span>Master Programs</span>
+            <p>
+              We offer an exceptional Budget search filter designed to assist
+              you in selecting the perfect university based on both your
+              financial considerations and individual preferences, ensuring an
+              optimal match for your budget and suitability.
+            </p>
+            <button className="secondary-button">Search Bachelors</button>
+          </div>
+        </div>
+        <div className="AdsBanner">
+          <img src={Adsbanner} alt="" />
+        </div>
+
+        <div>
+          <h1>Students Think About Edugate.</h1>
+          <div className="Last-section">
+          <div className="Last-section-Textpart">
+            <p>
+              I started by searching on Google for courses that suites my
+              interest and I was redirected to different websites, one of which
+              is Edugate.com which turned out to be the most useful. I chose
+              Vytautas Magnus University because it was the most affordable for
+              me and the course completely suited my needs. Studyportals helped
+              by giving me a wide range of detailed options of schools and
+              courses to choose from. I did not have an idea of either the
+              course or the university I wanted to attend. At the initial stage,
+              before the application, I received all the necessary information
+              about the course and school, through a direct website link to the
+              course.
+            </p>
+            <button className="primary-button">Read More</button>
+          </div>
+          <img src={Students} alt="" />
+          </div>
+        </div>
+      </div>
+
       <Footer/>
     </div>
-    
-  )
+  );
 }

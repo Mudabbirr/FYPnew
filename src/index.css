@@ -1,3 +1,9 @@
+:root{
+  --primary: #0B033C;
+  --secondary: #2B7FFF;
+  --gray: #E9EBF8;
+  --lightblue: #F2F7FF;
+}
 *{
   margin: 0;
   padding: 0;
@@ -9,3 +15,4 @@ html, body{
   height: 100%;
   width: 100%
 }
+

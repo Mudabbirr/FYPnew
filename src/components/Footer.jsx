@@ -1,50 +1,46 @@
-import React from 'react'
-import './footer.css'
-import Twitter from '../assets/TwitterX.png'
-import Facebook from '../assets/Vector.png'
-import Linkedin from '../assets/LinkedIn.png'
-
-
+import React from "react";
+import "./footer.css";
+import Twitter from "../assets/TwitterX.png";
+import Facebook from "../assets/Vector.png";
+import Linkedin from "../assets/LinkedIn.png";
 
 export default function Footer() {
   return (
     <div>
-        <div className="footer">
-      <div className="one">
-        <h3 className='footer_h3'>SITEMAP</h3>
-        <ul className='footer_ul'>
-            <li className='footer_li'>About Us</li>
-            <li className='footer_li'>B.S Programmes</li>
-            <li className='footer_li'>M.S Programmes</li>
-            <li className='footer_li'>Contact Us</li>
-        </ul>
-      </div>
-      <div className="one">
-        <h3 className='footer_h3'>Top Universities</h3>
-        <ul className='footer_ul'>
-            <li className='footer_li'>Monash University</li>
-            <li className='footer_li'>University Of Warwick</li>
-            <li className='footer_li'>The University Ranking</li>
-            <li className='footer_li'>University Of Calgary</li>
-        </ul>
-      </div>
-      <div className="one">
-        <h3 className='footer_h3'>Services</h3>
-        <ul className='footer_ul'>
-            <li className='footer_li'>University Administration</li>
-            <li className='footer_li'>Register Your University</li>
-           <div className="links"> <li className='footer_li'>Follow US on :</li>
-           <img  className='footer_icon' src={Twitter} alt="" />
-           <img className='footer_icon' src={Facebook} alt="" />
-           <img className='footer_icon' src={Linkedin} alt="" />
+      <div className="footer">
+        <div className="footer-items">
+          <div className="SITEMAP">
+            <h3>SITEMAP</h3>
+            <p>About us</p>
+            <p>Bachelor Programs</p>
+            <p>Master Programs</p>
+            <p>Contact Us</p>
+          </div>
+          <div className="TopUniversities">
+            <h3>Top Universities</h3>
+            <p>Monash University</p>
+            <p>University of Warwick</p>
+            <p>THE University Rankings</p>
+            <p>University of Calgary</p>
+          </div>
+          <div className="Services">
+            <h3>Services</h3>
+            <p>University Administration.</p>
+            <p>Register your university.</p>
+            <p>Follow us on</p>
+
+            <div className="social-icons">
+              <img src={Facebook} />
+              <img src={Linkedin} />
+              <img src={Twitter} />
             </div>
-        </ul>
+          </div>
+        </div>
       </div>
-      </div>
-      <div className="copyright">
-        <p className="copyright_p">Copyright © 2023 Edugate</p>
-        <p className="copyright_p">Disclaimer | Privacy Policy | Terms Of Use | Investors</p>
-      </div>
+      <div className="copyrights">
+          <p>Copyright © 2023 Edugate</p>
+          <p>Disclaimer | Privacy Policy | Terms Of Use | Investors</p>
+        </div>
     </div>
-  )
+  );
 }

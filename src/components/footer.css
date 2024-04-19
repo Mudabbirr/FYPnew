@@ -1,39 +1,59 @@
-/* 214444 */
-
 .footer{
-    display: flex;
-    gap: 15rem;
-    padding-left: 7rem;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    background-color: #2B7FFF;
-    color: #ffffff;
+    background-color: var(--primary);
+    width: 100%;
+    height: 25rem;
+    padding: 5rem;
+    padding-right: 8rem;
 }
-
-.links{
+.footer-items{
     display: flex;
+    gap: 17rem;
+    align-items: baseline;
+    justify-content: center;
+}
+.SITEMAP{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    justify-content: center; 
+    color: white;
+}
+.SITEMAP h3{
+    padding-bottom: 2rem;
+}
+.TopUniversities{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    justify-content: center; 
+    color: white;
+}
+.TopUniversities h3{
+    padding-bottom: 2rem;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    justify-content: center; 
+    color: white;
+}
+.Services h3{
+    padding-bottom: 2rem;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
     gap: 1rem;
 }
-.footer_icon{
-    width: 22px;
-    height: 20px;
-    margin-top: 1.5rem;
-}
-.footer_ul{
-    margin-top: 4rem;
-}
-.footer_h3{
-    text-align: start;
-}
-.footer_li{
-    font-size: 15px;
-    font-weight: 50;
-}
-.copyright{
+.copyrights{
+    width: 100%;
+    height: 3rem;
+    background-color: var(--lightblue);
     display: flex;
-    gap: 22rem;
-    background-color: #ffffff;
-}
-.copyright_p{
-    margin: 0.5rem;
+    padding: 1rem 5rem;
+    justify-content: space-between;
 }
